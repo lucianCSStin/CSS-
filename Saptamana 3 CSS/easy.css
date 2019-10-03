@@ -14,14 +14,38 @@ div {
     border-style: solid;
     border-width: 1px;
     border-color: black;
+} 
+
+#different a {
+   color: #C55;
 }
 
-div:not(#different) a:first-child {
+div a {
     color: green;
 }
 
-#different {
-    color: red;
+.table {
+    border-style: solid;
+    border-color: #66ff99;
+    background-color: #e0e0eb;
+    list-style-type: square;
 }
 
+* {
+    font-family: Great Vibes, cursive;
+}
+
+p {
+    font-family: Amatic SC, cursive;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+}
 
