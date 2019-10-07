@@ -42,12 +42,12 @@ ul li:nth-child(5) {
     list-style-type: none;
 }
 
-input:focus {
+input[type="text"]:focus {
     background-color: gray;
 }
 
 form div:first-child input {
-    color:green;
+    color: green;
 }
 
 form div:nth-child(2) input {
